@@ -39,17 +39,17 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }
 /* Logo Styling Start */
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 /* Logo Styling End */
 /* Heading Styling Start */
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -60,18 +60,21 @@ body {
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 3.5rem;
+    margin-bottom: 6rem;
 }
-.heading-primary-main {
+.heading-primary--main {
     display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2rem;
     animation: moveInLeft 1s ease-in;
+    /* text-decoration: underline; */
 }
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
+    font-style: italic;
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-in;
@@ -93,13 +96,13 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }
-.btn-white {
+.btn--white {
     background-color: white;
     color: #777;
     padding: 1.5rem 4rem;
     display: inline-block;
 }
-.btn-animated {
+.btn--animated {
     animation: moveInBottom 1s ease-in 0.75s;
     animation-fill-mode: backwards;
 }
@@ -115,7 +118,7 @@ body {
     z-index: -1;
     transition: all 0.4s;
 }
-.btn-white::after {
+.btn--white::after {
     background-color: white;
 }
 .btn:hover::after {
