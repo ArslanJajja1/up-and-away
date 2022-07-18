@@ -1,0 +1,27 @@
+{
+  "name": "up-and-away",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "sass": "sass --watch sass/main.scss:css/style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArslanJajja1/up-and-away.git"
+  },
+  "keywords": [],
+  "author": "Arslan Jajja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArslanJajja1/up-and-away/issues"
+  },
+  "homepage": "https://github.com/ArslanJajja1/up-and-away#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
